@@ -1,4 +1,4 @@
-export const Input = () => {
+export const Input = (props) => {
   return (
       <div className="p-2 space-y-1">
           <input 
@@ -17,7 +17,8 @@ export const Input = () => {
               text-sm 
               text-white 
               transition duration-500 ease-in-out
-              "
+            "
+            placeholder={props.placeholder}
             />
       </div>
   );
