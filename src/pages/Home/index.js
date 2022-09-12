@@ -39,7 +39,7 @@ export default function Home() {
 
                 </p>
               </div>
-              <h1 className='text-white text-xl mt-8 mb-2'>Quais benefícios da Gestão Estratégica de TI?</h1>
+              <h1 className='text-white text-xl mt-8 mb-2' id='beneficio'>Quais benefícios da Gestão Estratégica de TI?</h1>
               <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg h-96 sm:h-min">
                 <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
                   <ul>
