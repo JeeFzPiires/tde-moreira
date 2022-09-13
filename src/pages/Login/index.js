@@ -17,7 +17,7 @@ export default function Login() {
           <img src={LogoTI} className="flex mx-auto mt-44" />
           <h1 className="text-[#28edf5] text-center font-bold text-2xl font-mono ">GESTÃO DE TI</h1>
         </div>
-        <div className="bg-slate-800 h-full w-3/4">
+        <div className="bg-gradient-to-t from-slate-600 via-slate-800 to-slate-900 h-full w-3/4">
           <div className="bg-slate-900 w-2/5 h-72 rounded-xl border-2 border-[#28edf5] shadow-2xl mx-auto mt-56">
             <h1 className="text-white text-center mt-10 font-bold text-xl">Entre com a sua conta Google</h1>
             <div className="bg-[#28edf5] border-2 border-slate-900 text-slate-900 mt-14 h-16 w-72 flex-row mx-auto rounded-full cursor-pointer hover:shadow-sm hover:shadow-black hover:border-white
