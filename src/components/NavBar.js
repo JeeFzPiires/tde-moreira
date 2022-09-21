@@ -12,6 +12,7 @@ const navigation = [
   { name: 'O que é', href: '#', current: false },
   { name: 'Resenha', href: '#resenha', current: false },
   { name: 'Benefícios', href: '#beneficio', current: false },
+  { name: 'Entrevista', href: '#entrevista', current: false }
 ]
 const userNavigation = [
   { name: 'Sair', href: '#' },
@@ -23,7 +24,8 @@ function classNames(...classes) {
 
 export default function NavBar() {
   const { user, signOut } = useContext(AuthGoogleContext);
-  let userLogado = user
+  let userInfo = sessionStorage.getItem("@AuthFirebase:user")
+  let userLogado = JSON.parse(userInfo)
 
   console.log(userLogado)
   return (

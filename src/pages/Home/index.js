@@ -1,6 +1,8 @@
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
 
+import LogoEasymine from '../../assets/LogoEasymine.png'
+
 export default function Home() {
 
   return (
@@ -9,11 +11,11 @@ export default function Home() {
         
         <NavBar />
 
-        <main className='pt-12'>
+        <main className='pt-12 font-serif'>
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             <div className="px-4 py-6 sm:px-0">
-              <h1 className='text-white text-xl mb-2'>O que é uma Gestão Estratégica de TI?</h1>
-              <div className="border-2 border-[#28edf5] border-solid bg-slate-300 shadow-md shadow-black rounded-lg h-96 sm:h-min">
+              <h1 className='text-white text-2xl mb-2 font-bold'>O que é uma Gestão Estratégica de TI?</h1>
+              <div className="border-2 border-[#28edf5] border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed whitespace-pre-line break-words mb-4'>
                 A gestão estratégica é um conjunto de práticas aplicadas na administração de uma empresa, departamento e até mesmo de projetos, 
                 em que os processos são estruturados de forma eficaz para atingir os objetivos traçados pela organização. Por meio dela, 
@@ -30,8 +32,8 @@ export default function Home() {
                 Fonte: <a class="text-sky-400 hover:after:content-['_↗'] ..." href="https://www.findup.com.br/gestao-de-ti-estrategica/" target="_blank">https://www.findup.com.br/gestao-de-ti-estrategica/</a>
                 </p>
               </div>
-              <h1 className='text-white text-xl mt-8 mb-2'>Resenha sobre Gestão Estratégica de TI</h1>
-              <div className="border-2 border-[#28edf5] border-solid bg-slate-300 shadow-md shadow-black rounded-lg h-96 sm:h-min">
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold'>Resenha sobre Gestão Estratégica de TI</h1>
+              <div className="border-2 border-[#28edf5] border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
                   Gestão estratégica é um assunto muito importante no mercado atual, o mesmo aborda a importância da gestão do conhecimento utilizando ferramentas que a TI pode oferecer. 
                   O mundo está passando por uma evolução da tecnologia muito rápido, em uma grande escala, e para o crescimento das empresas hoje em dia tornou-se muito importante,
@@ -39,8 +41,8 @@ export default function Home() {
 
                 </p>
               </div>
-              <h1 className='text-white text-xl mt-8 mb-2' id='beneficio'>Quais benefícios da Gestão Estratégica de TI?</h1>
-              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg h-96 sm:h-min">
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>Quais benefícios da Gestão Estratégica de TI?</h1>
+              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
                   <ul>
                     <li className='font-bold text-lg'>Redução de custos</li>
@@ -104,18 +106,53 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
-              {/* <h1 className='text-white text-xl mt-8 mb-2'>Entrevista com Geraldo Dutra - Gestor de TI</h1>
-              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg h-96 sm:h-min">
-                <p className='mx-2 mt-2 text-black leading-relaxed'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, exercitationem ea. Adipisci ad, a voluptas corrupti deserunt fugiat odit minus enim quae ipsam magni tenetur similique, distinctio quas dolorum saepe.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam illo dolorem, provident nam rerum dolores atque. Fuga dolore ex fugiat unde! Sapiente nostrum quam vero placeat necessitatibus ab! Corporis, odit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perspiciatis deserunt expedita deleniti iure iste consequuntur accusamus dicta natus nostrum, explicabo corporis fugit commodi quo reiciendis delectus incidunt! Labore, minima!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt similique doloremque maiores officia alias, voluptates unde, modi soluta quod, quibusdam neque! Nihil, doloribus! Nemo sequi quidem cumque eaque accusantium?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis rerum nihil et ut animi in, eaque perferendis quidem ratione praesentium cumque molestias voluptatibus ipsam error. Minima optio harum vitae?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptas tenetur explicabo, quaerat nisi earum, quas accusantium ullam at sapiente dolorum iusto placeat aspernatur enim quasi quos, ipsa alias dolorem!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum, placeat maiores doloribus aut tempora delectus. Harum, reiciendis dignissimos? Possimus, adipisci soluta reiciendis nobis consectetur quos assumenda dicta aut autem.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde error distinctio officiis est nulla sed eius? Sequi voluptatem optio facere quasi commodi. Odio dolor aliquam reprehenderit neque voluptas optio repellendus.
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='entrevista'>Entrevista com Geraldo Dutra (Co-Fundador da Instale Tecnologia) - Gestor de TI</h1>
+              <img className='w-96' src={LogoEasymine}></img>
+              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg mt-4 sm:h-min">
+                <p className='mx-2 mt-2 text-black leading-relaxed'> 
+                  <li className='font-bold text-lg'>Quais são as maiores dificuldades sendo Gestor de TI?</li>
+                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                    - "O maior desafio de um gestor de t.i. está em não deixar o seu produto ou projeto ficar defasado, 
+                    então para isso ele depende exclusivamente tá por dentro das tecnologias, o que se encaixa também nos desafios em gerir o time. 
+                    E fazer um time assim é uma é uma linha que tem que ser cruzado entre gerir o time e preparar ele se para serem totalmente alto suficiente também, 
+                    então você só modela o time. Você vai organizando as ideias de acordo com a estratégia da empresa mas você tem que estar sempre instigando o time 
+                    a poder evoluir, poder aprender, e encaixar no momento certo os projetos."
+                  </p><br/>
+                  <li className='font-bold text-lg'>Qual o desafio de um Gestor de TI?  </li>
+                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                    - "A gestão de TI ela fica complexa de acordo como uma empresa cresce e a dificuldade de entender essas demandas de acordo 
+                    com a atualização do mercado, das ferramentas na evolução da tecnologia e você encaixar ela dentro da sua empresa, 
+                    nos seus produtos e nos seus projetos mas principalmente ir acompanhando e evoluindo as pessoas para integrarem isso, 
+                    porque não é só uma questão de mapear os processos ou usar uma tecnologia nova, por exemplo uma migração de tecnologia. 
+                    A ideia também é você poder qualificar as pessoas para poder acompanhar nisso e essa dificuldade está em saber o que fazer na hora certa, 
+                    capacitar as pessoas e saber migrar pouco a pouco."
+                  </p><br/>
+                  <li className='font-bold text-lg'>O que é importante para manter um bom desempenho da equipe?</li>
+                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                    - "Manter um bom desempenho é ter os processos mapeados e muito bem organizados, dar as ferramentas necessárias para o pessoal e tá sempre direcionando 
+                    eles a estudarem e capacitar dentro das estratégias de tecnologia da sua empresa, porque nem sempre há uma tecnologia que se encaixa naquela 
+                    empresa naquele momento, mas você tem que preparar a base bem feita com treinamento e acompanhamento dessas pessoas também para poder obter um 
+                    bom desempenho. E principalmente melhorar a comunicação, para isso tem varias ferramentas, mas a comunicação da equipe é o essencial para manter um bom desempenho."
+                  </p><br/>
+                  <li className='font-bold text-lg'>Como foi sua trajetória junto com a empresa?</li>
+                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                    - "Sou um dos fundadores, a empresa vai fazer 17 anos agora no ano que vem em Janeiro 2023, a minha trajetória foi desde o começo como organizar, 
+                    fazer um plano de negócio da empresa e até o momento que ela foi crescendo, sempre acompanhando ali na parte executiva, como estratégia da 
+                    empresa e atuando também na gestão de TI, e também operacionalmente. Eu ainda tenho uma parte operacional na TI, principalmente com P&D, 
+                    desenvolvimento de alguns itens mas chega a ser mais para evolução da tecnologia e acompanhamento. A parte operacional mesmo fica com a equipe. 
+                    Eu sempre tive junto aí ajudando os sócios e os colaboradores tendo uma visão estratégica melhor da empresa direcionando para as áreas e poder 
+                    executar essa visão de acordo com a demanda que vai surgindo."
+                  </p><br/>
+                  <li className='font-bold text-lg'>Quais são os planos para o futuro?</li>
+                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                    - "É estudar muito ainda né, porque tudo muda muito rápido e a gente com 17 anos de empresa nós temos que estar muito ligado,  
+                    sempre antenado e tá sempre estudando, estando capacitando melhor aí as pessoas também, e melhorando os processos para nós não estar defasado no 
+                    mercado e poder evoluir nossa tecnologia constante para poder tá atendendo nossos clientes. Hoje em dia isso aí é essencial estar sempre atualizado, 
+                    e manter a cabeça no lugar de fazer ações na hora certa, para não dar um passo maior que a perna também, e esses são os planos para o futuro e ter 
+                    visão de bastante crescimento ainda para gente."
+                  </p>
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
         </main>
