@@ -32,6 +32,7 @@ export default function Home() {
                 Fonte: <a class="text-sky-400 hover:after:content-['_↗'] ..." href="https://www.findup.com.br/gestao-de-ti-estrategica/" target="_blank">https://www.findup.com.br/gestao-de-ti-estrategica/</a>
                 </p>
               </div>
+
               <h1 className='text-white text-2xl mt-8 mb-2 font-bold'>Resenha sobre Gestão Estratégica de TI</h1>
               <div className="border-2 border-[#28edf5] border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
@@ -41,6 +42,7 @@ export default function Home() {
 
                 </p>
               </div>
+
               <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>Quais benefícios da Gestão Estratégica de TI?</h1>
               <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
@@ -106,6 +108,7 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
+
               <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='entrevista'>Entrevista com Geraldo Dutra (Co-Fundador da Instale Tecnologia) - Gestor de TI</h1>
               <img className='w-96' src={LogoEasymine}></img>
               <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg mt-4 sm:h-min">
@@ -152,6 +155,146 @@ export default function Home() {
                     visão de bastante crescimento ainda para gente."
                   </p>
                 </p>
+              </div>
+
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>ITIL</h1>
+              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
+                <p className='mx-2 mt-2 text-black leading-relaxed'> 
+                    <li className='font-bold text-lg'>O que é ITIL</li>
+                    <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                      A título de curiosidade, ITIL é o acrônimo de  Information Technology Infrastructure Library. 
+                      Porém este acrônimo deixou de ser relevante por conta da modernização do framework. Mas dada a sua popularidade, o nome foi mantido.
+                    </p><br/>
+
+                    <li className='font-bold text-lg'>Objetivos do ITIL v4</li>
+                    <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                      <li>O ITIL V4 oferece uma fundamentação flexível para organizações que precisam integrar vários frameworks e abordagens em seus modelos 
+                      operacionais de gerenciamento de serviços.
+                      </li>
+                      <li>O ITIL V4 tem como foco ajudar negócios a navegar através da era das novas tecnologias e serviços digitais.</li>
+                    </p><br/>
+
+                    <li className='font-bold text-lg'>Por que adotar o ITIL v4</li>
+                    <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                      O ITIL V4 atualiza a estrutura do ITIL, introduzindo uma abordagem holística ao gerenciamento de serviços e focando no gerenciamento 
+                      de serviços de ponta a ponta, da demanda ao valor.<br/>
+                      O ITIL V4 descreve um modelo operacional para a entrega de produtos e serviços habilitados por tecnologia. A documentação foi 
+                      completamente revisada e simplificada para facilitar a leitura e aprimorada com muitos exemplos práticos.
+                      O ITIL V4 também reflete tendências recentes no desenvolvimento de software e operações de TI e inclui recomendações sobre como 
+                      aplicar filosofias como Agile, DevOps e Lean no domínio do gerenciamento de serviços.
+                    </p><br/>
+
+                    <li className='font-bold text-lg'>Práticas de gerenciamento do ITIL v4</li>
+                    <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                      O ITIL 4 inclui 34 práticas de gerenciamento como “conjuntos de recursos organizacionais projetados para executar o trabalho ou atingir um objetivo”. 
+                      Para cada prática, o ITIL 4 fornece vários tipos de orientação, como termos e conceitos-chave, fatores de sucesso, atividades-chave, objetos de informação etc.
+                      <br/><br/>
+                      As 34 práticas da ITIL V4 estão agrupadas em três categorias:
+                      <br/>
+                      <li>Práticas gerais de gerenciamento</li>
+                      <li>Práticas de gerenciamento de serviços</li>
+                      <li>Práticas de gerenciamento técnico</li>
+                      <br/>
+                      <p className='font-bold text-lg'>Práticas gerais de gerenciamento</p>
+                      As práticas gerais de gerenciamento da ITIL V4 incluem:
+                      <br/>
+                      <li>Gerenciamento de estratégia</li>
+                      <li>Gerenciamento de portfólio</li>
+                      <li>Gerenciamento de arquitetura</li>
+                      <li>Gerenciamento financeiro de serviços</li>
+                      <li>Gerenciamento de talento e força de trabalho</li>
+                      <li>Melhoria contínua</li>
+                      <li>Medição e relatórios</li>
+                      <li>Gerenciamento de riscos</li>
+                      <li>Gerenciamento de segurança da informação</li>
+                      <li>Gestão do conhecimento</li>
+                      <li>Gerenciamento de mudanças organizacionais</li>
+                      <li>Gerenciamento de Projetos</li>
+                      <li>Gerenciamento de relacionamento</li>
+                      <li>Gerenciamento de fornecedores</li><br/>
+                      <p className='font-bold text-lg'>Práticas gerenciamento de serviços</p>
+                      As práticas de gerenciamento de serviços no ITIL V4 incluem:
+                      <br/>
+                      <li>Análise de negócio</li>
+                      <li>Gerenciamento de catálogo de serviços</li>
+                      <li>Design de serviço</li>
+                      <li>Gerenciamento de nível de serviço</li>
+                      <li>Gerenciamento de disponibilidade</li>
+                      <li>Gerenciamento de capacidade e desempenho</li>
+                      <li>Gerenciamento de continuidade de serviço</li>
+                      <li>Monitoramento e gerenciamento de eventos</li>
+                      <li>Central de serviço</li>
+                      <li>Gerenciamento de incidentes</li>
+                      <li>Gerenciamento de requisição de serviço</li>
+                      <li>Gerenciamento de problemas</li>
+                      <li>Gerenciamento de Liberação</li>
+                      <li>Habilitação de mudança</li>
+                      <li>Validação e teste de serviço</li>
+                      <li>Gerenciamento de configuração de serviço</li>
+                      <li>Gerenciamento de ativos de TI</li>
+                      <br/>
+                      <p className='font-bold text-lg'>Práticas gerenciamento técnico</p>
+                      As práticas de gerenciamento técnico da ITIL V4 incluem:
+                      <li>Gerenciamento de implantação</li>
+                      <li>Gerenciamento de infraestrutura e plataforma</li>
+                      <li>Desenvolvimento e gerenciamento de software</li>
+                    </p><br/>
+                </p>
+              </div>
+
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>BI - (Business Intelligence)</h1>
+              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
+                <li className='font-bold text-lg mt-2'>Vantagens de um projeto de Business Intelligence</li>
+                <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                  Com as informações coletadas e analisadas pelo BI, a empresa conhecerá as oportunidades de melhoria interna, quais recursos estão sendo desperdiçados, 
+                  quais clientes são mais lucrativos, quais as ameaças ao negócio e como combatê-las, além de muitos outros fatores.
+                  O BI não serve apenas para ajudar a equipe de gestão e os executivos da empresa: serve para todos os funcionários. Com o conhecimento gerado pelo programa de inteligência, 
+                  os funcionários entendem melhor como otimizar seu próprio trabalho e como incrementar a produtividade
+                </p>
+                <br/>
+
+                <li className='font-bold text-lg'>Fontes das informações coletadas pelo BI</li>
+                <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                  As informações vêm de várias fontes. As mais comuns são CRMs, ERPs, Data Warehouses, relatórios internos e até notícias de jornais. Uma vez reunidos em um único repositório (software ou sistema), 
+                  essas informações são cruzadas, checadas e comparadas, gerando conhecimento valioso para o gestor.
+                </p>
+                <br/>
+
+                <li className='font-bold text-lg'>A eficiência do BI</li>
+                <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                  A eficiência do Business Intelligence está no fato da ferramenta não se resumir a uma única metodologia, um único processo ou um único software. BI é um conjunto de ações, que podem ser desdobradas e 
+                  ajudar em diversas necessidades das empresas. Vamos citar algumas abaixo:
+                  <li>Mensuração e análise dos resultados</li>
+                  <li>Tomada de decisão mais eficiente</li>
+                  <li>Segurança da informação</li>
+                </p>
+                <br/>
+              </div>
+
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>KM - Knowledge Management</h1>
+              <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
+              <li className='font-bold text-lg mt-2'>O que é KM</li>
+                <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                  É o processo de criar, selecionar, partilhar e, de forma eficaz, usar e gerir o conhecimento dentro de uma organização. KM é uma ferramenta de comunicação interna e é usada para minuciosamente aplicar 
+                  conhecimento de experiências anteriores a processos de tomada de decisão atuais ou de futuro, com o objetivo de melhorar a eficácia da organização.
+                </p>
+                <br/>
+              
+              <li className='font-bold text-lg mt-2'>Uso de KM</li>
+              <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                O Knowledge Management tem que ver com uma abordagem multidisciplinar para atingir objetivos organizacionais, dando o melhor uso ao conhecimento. Esta técnica apresenta soluções que facilitam o processo de selecionar, 
+                distribuir e usar o conhecimento a favor da empresa.
+                Quando uma organização consegue facilmente aceder, partilhar e atualizar o conhecimento relative ao negócio, então será mais produtiva e terá uma melhor relação custo-benefício.
+              </p>
+              <br/>
+
+              <li className='font-bold text-lg mt-2'>Tipos de KM</li>
+              <p className='mx-2 mt-2 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                <li>O explícito, em que o conhecimento é fácil de pôr por palavras e partilhar;</li>
+                <li>O implícito, em que o conhecimento é aplicável;</li>
+                <li>O tácito, em que o conhecimento é apreendido por experiências pessoais através do trabalho.</li>
+
+              </p>
               </div>
             </div>
           </div>
