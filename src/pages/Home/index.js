@@ -147,7 +147,7 @@ export default function Home() {
                     executar essa visão de acordo com a demanda que vai surgindo."
                   </p><br/>
                   <li className='font-bold text-lg'>Quais são os planos para o futuro?</li>
-                  <p className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
+                  <p id='itil' className='mx-2 mt-2 mb-4 text-black indent-8 md:indent-4 sm:indent-4 leading-relaxed'>
                     - "É estudar muito ainda né, porque tudo muda muito rápido e a gente com 17 anos de empresa nós temos que estar muito ligado,  
                     sempre antenado e tá sempre estudando, estando capacitando melhor aí as pessoas também, e melhorando os processos para nós não estar defasado no 
                     mercado e poder evoluir nossa tecnologia constante para poder tá atendendo nossos clientes. Hoje em dia isso aí é essencial estar sempre atualizado, 
@@ -157,7 +157,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='beneficio'>ITIL</h1>
+              <h1 className='text-white text-2xl mt-8 mb-2 font-bold' id='itil'>ITIL</h1>
               <div className="border-2 border-[#28edf5]  border-solid bg-slate-300 shadow-md shadow-black rounded-lg sm:h-min">
                 <p className='mx-2 mt-2 text-black leading-relaxed'> 
                     <li className='font-bold text-lg'>O que é ITIL</li>

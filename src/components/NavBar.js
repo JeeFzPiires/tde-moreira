@@ -12,7 +12,8 @@ const navigation = [
   { name: 'O que é', href: '#', current: false },
   { name: 'Resenha', href: '#resenha', current: false },
   { name: 'Benefícios', href: '#beneficio', current: false },
-  { name: 'Entrevista', href: '#entrevista', current: false }
+  { name: 'Entrevista', href: '#entrevista', current: false },
+  { name: 'ITIL', href: '#itil', current: false }
 ]
 const userNavigation = [
   { name: 'Sair', href: '#' },
